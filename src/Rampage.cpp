@@ -139,7 +139,7 @@ struct Rampage : Module {
 				falling = (in - out[c] < -1e-3);
 				if (!falling) {
 					// End of cycle, check if we should turn the gate back on (cycle mode)
-					endOfCyclePulse[c].trigger(1e-3);
+					endOfCyclePulse[c].trigger();
 					if (params[CYCLE_A_PARAM + c].getValue() * 10.0 + inputs[CYCLE_A_INPUT + c].getVoltage() >= 4.0) {
 						gate[c] = true;
 					}

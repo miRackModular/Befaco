@@ -24,7 +24,6 @@
       "description": "Dual ramp generator. Based on Befaco Rampage.",
       "tags": [
         "Function Generator",
-        "Logic",
         "Slew Limiter",
         "Envelope Follower",
         "Dual",
@@ -48,6 +47,7 @@
       "description": "Spring reverb tank driver. Based on Befaco Spring Reverb.",
       "tags": [
         "Reverb",
+        "Effect",
         "Hardware"
       ]
     },
